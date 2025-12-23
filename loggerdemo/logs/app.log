@@ -1,0 +1,18 @@
+2025-12-10T09:53:31.762Z  INFO 35219 --- [loggerdemo] [main] com.tcs.LoggerdemoApplication            : Starting LoggerdemoApplication using Java 17.0.15 with PID 35219 (/home/labuser/Documents/workspace-spring-tool-suite-4-4.23.1.RELEASE/loggerdemo/target/classes started by labuser in /home/labuser/Documents/workspace-spring-tool-suite-4-4.23.1.RELEASE/loggerdemo)
+2025-12-10T09:53:31.767Z  INFO 35219 --- [loggerdemo] [main] com.tcs.LoggerdemoApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-12-10T09:53:32.710Z  INFO 35219 --- [loggerdemo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9090 (http)
+2025-12-10T09:53:32.726Z  INFO 35219 --- [loggerdemo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-10T09:53:32.727Z  INFO 35219 --- [loggerdemo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-10T09:53:32.774Z  INFO 35219 --- [loggerdemo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 940 ms
+2025-12-10T09:53:33.219Z  INFO 35219 --- [loggerdemo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9090 (http) with context path '/'
+2025-12-10T09:53:33.227Z  INFO 35219 --- [loggerdemo] [main] com.tcs.LoggerdemoApplication            : Started LoggerdemoApplication in 2.016 seconds (process running for 2.745)
+2025-12-10T09:53:42.667Z  INFO 35219 --- [loggerdemo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10T09:53:42.668Z  INFO 35219 --- [loggerdemo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-10T09:53:42.671Z  INFO 35219 --- [loggerdemo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-10T09:53:42.708Z  INFO 35219 --- [loggerdemo] [http-nio-9090-exec-1] com.tcs.controller.ProductController     : This is info msg
+2025-12-10T09:53:42.709Z ERROR 35219 --- [loggerdemo] [http-nio-9090-exec-1] com.tcs.controller.ProductController     : This is error msg
+2025-12-10T09:53:42.709Z  WARN 35219 --- [loggerdemo] [http-nio-9090-exec-1] com.tcs.controller.ProductController     : This is warn msg
+2025-12-10T10:02:46.813Z  INFO 35219 --- [loggerdemo] [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-10T10:02:46.817Z  INFO 35219 --- [loggerdemo] [RMI TCP Connection(19)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10T10:02:46.823Z  INFO 35219 --- [loggerdemo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-10T10:02:59.939Z ERROR 36043 --- [loggerdemo] [http-nio-9090-exec-2] com.tcs.controller.ProductController     : This is error msg
